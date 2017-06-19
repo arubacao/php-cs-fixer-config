@@ -17,8 +17,8 @@ abstract class Base extends \PhpCsFixer\Config
         $this
             ->setRiskyAllowed(true)
             ->setFinder($finder);
-
     }
+
     /**
      * Add rules to predefined rules of this configuration.
      *
