@@ -1,0 +1,1 @@
+return Arubacao\PhpCsFixer\Laravel::create();
