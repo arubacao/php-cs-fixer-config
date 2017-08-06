@@ -12,6 +12,8 @@ class Laravel extends Base
             ->exclude([
                 '.git',
                 '.idea',
+                '_ide_helper.php',
+                '_ide_helper_models.php',
                 'bootstrap/cache',
                 'bower_components',
                 'node_modules',
