@@ -2,7 +2,6 @@
 
 namespace Arubacao\PhpCsFixer;
 
-
 abstract class Base extends \PhpCsFixer\Config
 {
     public function __construct($name = 'default')
