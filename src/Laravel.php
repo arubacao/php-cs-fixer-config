@@ -10,15 +10,10 @@ class Laravel extends Base
 
         $finder = $this->getFinder()
             ->exclude([
-                '.git',
-                '.idea',
                 '_ide_helper.php',
                 '_ide_helper_models.php',
                 'bootstrap/cache',
-                'bower_components',
-                'node_modules',
                 'storage',
-                'vendor',
             ]);
 
         $this

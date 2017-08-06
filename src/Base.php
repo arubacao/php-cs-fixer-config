@@ -12,7 +12,14 @@ abstract class Base extends \PhpCsFixer\Config
         $finder = $this->getFinder()
             ->name('*.php')
             ->ignoreDotFiles(true)
-            ->ignoreVCS(true);
+            ->ignoreVCS(true)
+            ->exclude([
+                '.git',
+                '.idea',
+                'bower_components',
+                'node_modules',
+                'vendor',
+            ]);
 
         $this
             ->setRiskyAllowed(true)
