@@ -10,11 +10,12 @@ class Laravel extends Base
 
         $finder = $this->getFinder()
             ->exclude([
-                '_ide_helper.php',
-                '_ide_helper_models.php',
                 'bootstrap/cache',
                 'storage',
-            ]);
+            ])
+            ->notPath('.phpstorm.meta.php')
+            ->notPath('_ide_helper.php')
+            ->notPath('_ide_helper_models.php');
 
         $this
             ->setRules([
