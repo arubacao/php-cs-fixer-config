@@ -21,6 +21,9 @@
             "Arubacao\\PhpCsFixer\\": "src"
         }
     },
+    "scripts": {
+        "cs": "vendor/bin/php-cs-fixer fix ./ --config=recommended.php_cs -vv"
+    },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
