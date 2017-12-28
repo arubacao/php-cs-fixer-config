@@ -31,6 +31,11 @@ class Recommended extends Base
                 ],
                 'braces'           => true,
                 'cast_spaces'      => true,
+                'class_attributes_separation' => [
+                    'elements' => [
+                        'method',
+                    ],
+                ],
                 'class_definition' => true,
                 'concat_space'     => [
                     'spacing' => 'none',
@@ -55,7 +60,6 @@ class Recommended extends Base
                 'lowercase_keywords'                 => true,
                 'magic_constant_casing'              => true,
                 'method_argument_space'              => true,
-                'method_separation'                  => true,
                 'native_function_casing'             => true,
                 'new_with_braces'                    => true,
                 'no_alias_functions'                 => true,

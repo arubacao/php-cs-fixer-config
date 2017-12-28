@@ -38,6 +38,11 @@ class Laravel extends Base
                 ],
                 'braces'           => true,
                 'cast_spaces'      => true,
+                'class_attributes_separation' => [
+                    'elements' => [
+                        'method',
+                    ],
+                ],
                 'class_definition' => true,
                 'concat_space'     => [
                     'spacing' => 'none',
@@ -62,7 +67,6 @@ class Laravel extends Base
                 'lowercase_keywords'                 => true,
                 'magic_constant_casing'              => true,
                 'method_argument_space'              => true,
-                'method_separation'                  => true,
                 'native_function_casing'             => true,
                 'no_alias_functions'                 => true,
                 'no_blank_lines_after_class_opening' => true,
