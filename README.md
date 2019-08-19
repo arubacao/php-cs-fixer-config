@@ -1,5 +1,5 @@
-# [Preconfigured PHP Coding Standards Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
-Rule sets for Laravel projects/packages &amp; plain PHP
+# Preconfigured PHP Coding Standards Fixer
+**[php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) rule sets for Laravel &amp; plain PHP projects.**
 
 
 ## Install
@@ -24,7 +24,7 @@ Add to your **composer.json** file
     },
     ...
 ```
-Now you can simple execute:
+Now you can execute:
 ```bash
 $ composer cs
 ```

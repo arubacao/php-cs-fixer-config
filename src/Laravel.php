@@ -140,7 +140,7 @@ class Laravel extends Base
                 'single_line_after_imports'          => true,
                 'single_line_comment_style'          => [
                     'comment_types' => [
-                        0 => 'hash',
+                        'hash',
                     ],
                 ],
                 'single_quote'                      => true,
