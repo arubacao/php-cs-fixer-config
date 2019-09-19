@@ -99,7 +99,7 @@ class Recommended extends Base
                 'normalize_index_brace'                 => true,
                 'object_operator_without_whitespace'    => true,
                 'ordered_imports'                       => [
-                    'sortAlgorithm' => 'alpha',
+                    'sort_algorithm' => 'alpha',
                 ],
                 'phpdoc_align'        => true,
                 'phpdoc_indent'       => true,

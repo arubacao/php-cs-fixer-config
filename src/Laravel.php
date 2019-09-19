@@ -112,7 +112,7 @@ class Laravel extends Base
                 'not_operator_with_successor_space'     => true,
                 'object_operator_without_whitespace'    => true,
                 'ordered_imports'                       => [
-                    'sort_algorithm' => 'length',
+                    'sort_algorithm' => 'alpha',
                 ],
                 'phpdoc_indent'       => true,
                 'phpdoc_inline_tag'   => true,
