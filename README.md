@@ -1,6 +1,8 @@
 # Preconfigured PHP Coding Standards Fixer
 **[php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) rule sets for Laravel &amp; plain PHP projects.**
 
+**Note:** This project is unmaintained. I suggest you take a look at [matt-allan/laravel-code-style](https://github.com/matt-allan/laravel-code-style) instead.
+
 
 ## Install
 ```bash
